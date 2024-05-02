@@ -1,0 +1,5 @@
+enable_testing()
+find_package(GTest REQUIRED)
+add_executable(test_average test_average.cpp)
+target_link_libraries(test_average GTest::GTest GTest::Main average_lib)
+add_test(NAME test_average COMMAND test_average)

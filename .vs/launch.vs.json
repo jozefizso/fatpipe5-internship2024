@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "app\\CMakeLists.txt",
+      "projectTarget": "main_app.exe",
+      "name": "main_app.exe"
+    }
+  ]
+}
