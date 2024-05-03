@@ -1,4 +1,4 @@
-#include "average.h"
+#include "../lib/average.h"
 #include <gtest/gtest.h>
 #include <vector>
 
