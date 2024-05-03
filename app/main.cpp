@@ -2,7 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
-#include "average.h"
+#include <lib/average.h>
 
 int main(int argc, char** argv) {
     std::string filename = "numbers.txt";
