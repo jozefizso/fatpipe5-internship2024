@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Install dependencies
-      run: sudo apt-get install -y g++ cmake libgtest-dev
+      run: sudo apt-get install -y g++ cmake
     - name: Create Build Directory
       run: mkdir build && cd build
     - name: CMake
@@ -19,5 +19,5 @@ jobs:
       run: cmake --build .
       working-directory: ./build
     - name: Test
-      run: ctest
-      working-directory: ./build
+      run: ./test_average
+      working-directory: ./build/test
